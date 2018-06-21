@@ -1,0 +1,12 @@
+https://hackernoon.com/execution-context-in-javascript-319dd72e8e2c
+
+Execution context (EC):
+    environment: this , variables , object , functions. that js code access
+    1. Global execution context (GEC): first code that starts when file first loaded
+                    value of this - window , in 'stric mode' undefined
+                    only one GEC exsists
+    2. Functional execution context (FEC): execution code inside a function each function has one
+                    have acces to the GEC 
+    3. Eval
+
+Execution context stack (ECS): stack data structure stores all the EC's that created during execution

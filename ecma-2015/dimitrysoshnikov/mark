@@ -1,0 +1,13 @@
+
+Environment = Scope
+
+execution context stack
+
+When a function is passed as an argument, it’s called a “funarg” — an abbreviation of the functional argument concept
+
+An environment is a sequence of frames. Each frame is a record (possibly empty) of bindings,
+which associate variable names with their corresponding values.
+
+http://dmitrysoshnikov.com/ecmascript/es5-chapter-0-introduction/
+http://dmitrysoshnikov.com/ecmascript/es5-chapter-3-1-lexical-environments-common-theory/
+>>>>Closure

@@ -1,0 +1,31 @@
+https://medium.com/dailyjs/javascript-basics-the-execution-context-and-the-lexical-environment-3505d4fe1be2
+
+Execution Context
+    The environment in witch the currect code is being evaluated in.
+    contains whatever state is necessary to track the execution progress of its associated code
+    global or function environment
+
+1. The Creation Phase
+---------------------
+1. ThisBinding state
+2. LexicalEnvironment state
+3. VariableEnvironment state
+
+
+1. ThisBinding state
+--------------------
+the value of this keyword in the current execution context
+    global execution context the this is bound to the global object in browser - window
+    function code this keyword depends on how the function is called
+
+2. LexicalEnvironment state
+---------------------------
+1) Identifier associations - binding between variable and function declarations with thier values
+2) Lexical structure - describing the actual location where code was written
+
+environment record - where variable and function declarations stored
+reference to outer environment - scope chain
+
+
+
+
